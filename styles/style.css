@@ -44,7 +44,7 @@ a{
     color: #0A0826;
 }
 
-.card button{
+.package .card button{
    background: #FEF5FA;
     opacity: 0.8;
     border-radius: 24px;
@@ -52,12 +52,12 @@ a{
     padding:5px 40px;
 }
 
-.card h2, h4{
+.package .card h2, h4{
     color: #231D4F;
 }
 
 
-.card:hover{
+.package .card:hover{
     background: #3F87F5;
     box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
     border-radius: 26px;
@@ -65,10 +65,37 @@ a{
     transform: scale(1.15);
 }
 
-.card:hover h2,h4{
+.package .card:hover h2{
     color: #FFFFFF;
 }
 
-.card:hover button{
+.package .card:hover h4{
+    color: #FFFFFF;
+}
+
+.package .card:hover button{
     background-color: #FFFFFF !important;
+}
+
+/* Feedback section styles */
+.feedback{
+    color: #0A0826;
+}
+
+.feedback .card{
+    background: #FFFFFF;
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+}
+
+.feedback .card-text{
+    color: #6C6C6C;
+}
+
+.feedback .card-title{
+    color: #0C1920;
+}
+
+.feedback .card-subtitle{
+    color: #747474;
 }
